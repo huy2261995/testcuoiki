@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const app = express();
 const port = 3001;
 
-mongoose.connect("mongodb://127.0.0.1:27017/tuhocMongoose");
+mongoose.connect("mongodb://127.0.0.1:27017/Baicuoiki");
 
 const orderModel = require("./order.schema");
 const inventoryModel = require("./inventory.schema");
